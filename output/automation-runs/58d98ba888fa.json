@@ -1,0 +1,14 @@
+{
+  "runId": "58d98ba888fa",
+  "status": "running",
+  "startedAt": "2026-05-13T14:23:18.574Z",
+  "finishedAt": null,
+  "totalLeads": 0,
+  "processed": 0,
+  "emailsSent": 0,
+  "emailsDrafted": 0,
+  "imagesGenerated": 0,
+  "errors": 0,
+  "steps": [],
+  "leadResults": []
+}

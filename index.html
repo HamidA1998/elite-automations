@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, viewport-fit=cover"
+    />
+    <meta
+      name="description"
+      content="Hamid Enterprise — H/OS personal operating system for outreach, leads, agents, and intelligence."
+    />
+    <title>Hamid Enterprise — H/OS</title>
+    <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://api.fontshare.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://api.fontshare.com/v2/css?f[]=satoshi@300,400,500,700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Geist+Mono:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+    />
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      window.__initErrors = [];
+      window.addEventListener('error', function(e) {
+        window.__initErrors.push({type:'error', msg: e.message, src: e.filename, line: e.lineno, col: e.colno});
+        console.error('[GLOBAL ERROR]', e.message, e.filename, e.lineno);
+      });
+      window.addEventListener('unhandledrejection', function(e) {
+        window.__initErrors.push({type:'rejection', msg: String(e.reason)});
+        console.error('[UNHANDLED REJECTION]', e.reason);
+      });
+    </script>
+    <script type="module">
+      window.$RefreshReg$ = () => {};
+      window.$RefreshSig$ = () => (type) => type;
+      window.__vite_plugin_react_preamble_installed__ = true;
+    </script>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

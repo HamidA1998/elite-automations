@@ -1,0 +1,294 @@
+
+> hamid-enterprise@0.1.0 dev
+> concurrently -n FRONTEND,CRM -c magenta,cyan "npm:frontend:dev" "npm:dashboard:dev"
+
+[FRONTEND] 
+[FRONTEND] > hamid-enterprise@0.1.0 frontend:dev
+[FRONTEND] > vite
+[FRONTEND] 
+[CRM] 
+[CRM] > hamid-enterprise@0.1.0 dashboard:dev
+[CRM] > node --env-file=.env.local --import tsx src/dashboard-server.ts
+[CRM] 
+[CRM] (node:13903) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+[CRM] (Use `node --trace-warnings ...` to show where the warning was created)
+[FRONTEND] 
+[FRONTEND]   VITE v8.0.8  ready in 176 ms
+[FRONTEND] 
+[FRONTEND]   ➜  Local:   http://localhost:5173/
+[FRONTEND]   ➜  Network: use --host to expose
+[CRM] Dashboard live at http://127.0.0.1:3007
+[CRM] SQLite CRM active at /Users/hamidamjad/Documents/Playground/elite-automations/output/elite-ops.sqlite
+[CRM] Watching output/ for pipeline updates...
+[CRM] [2026-04-20T11:19:05.549Z] GET /api/system/health 200 8ms
+[CRM] [2026-04-20T11:19:05.551Z] GET /api/integrations/status 200 1ms
+[CRM] [2026-04-20T11:19:05.566Z] GET /api/client-360 200 14ms
+[CRM] [2026-04-20T11:19:05.603Z] GET /api/openclaw/approvals 200 32ms
+[CRM] [2026-04-20T11:19:05.605Z] GET /api/openclaw/agents 200 37ms
+[CRM] [2026-04-20T11:19:20.601Z] GET /api/system/health 200 1ms
+[CRM] [2026-04-20T11:19:25.599Z] GET /api/integrations/status 200 0ms
+[CRM] [2026-04-20T11:19:34.937Z] GET /api/mail/oauth/url 200 1ms
+[CRM] [2026-04-20T11:19:35.609Z] GET /api/system/health 200 1ms
+[CRM] [2026-04-20T11:19:45.605Z] GET /api/integrations/status 200 0ms
+[CRM] [2026-04-20T11:19:50.615Z] GET /api/system/health 200 1ms
+[CRM] [2026-04-20T11:20:05.610Z] GET /api/integrations/status 200 0ms
+[CRM] [2026-04-20T11:20:05.619Z] GET /api/system/health 200 1ms
+[CRM] [2026-04-20T11:20:21.636Z] GET /api/mail/oauth/callback?iss=https://accounts.google.com&code=4/0Aci98E9L3eXTFCl24pBzAxU8ZqAx2gsvIx7F14PlrQaN-3okENiyAep6-lMel77KpQup8Q&scope=email%20https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/gmail.send%20https://www.googleapis.com/auth/userinfo.email%20openid&authuser=1&hd=eliteautomations.co.uk&prompt=consent 200 416ms
+[FRONTEND] 12:20:21 PM [vite] .env.local changed, restarting server...
+[FRONTEND] 12:20:21 PM [vite] server restarted.
+[CRM] [2026-04-20T11:20:33.666Z] GET /api/system/health 200 5ms
+[CRM] [2026-04-20T11:20:33.667Z] GET /api/integrations/status 200 0ms
+[CRM] [2026-04-20T11:20:33.685Z] GET /api/client-360 200 17ms
+[CRM] [2026-04-20T11:20:33.695Z] GET /api/openclaw/approvals 200 10ms
+[CRM] [2026-04-20T11:20:33.696Z] GET /api/openclaw/agents 200 11ms
+[CRM] [2026-04-20T11:20:39.565Z] POST /api/integrations/sync 200 300ms
+[CRM] [2026-04-20T11:20:39.569Z] GET /api/integrations/status 200 1ms
+[CRM] [2026-04-20T11:20:39.569Z] GET /api/system/health 200 0ms
+[CRM] [2026-04-20T11:20:44.644Z] GET /api/mail/oauth/url 200 0ms
+[CRM] [2026-04-20T11:20:45.136Z] GET /api/mail/inbox?maxResults=50 200 494ms
+[CRM] [2026-04-20T11:20:57.993Z] GET /api/mail/oauth/callback?iss=https://accounts.google.com&code=4/0Aci98E_DAh714eS5Xl6OSxbonYs5WJ7ru_0sZmLwGb_XvauninYFMqk-X7Am8GxHiccRLQ&scope=email%20https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/gmail.send%20https://www.googleapis.com/auth/userinfo.email%20openid&authuser=1&hd=eliteautomations.co.uk&prompt=consent 200 255ms
+[FRONTEND] 12:20:58 PM [vite] .env.local changed, restarting server...
+[FRONTEND] 12:20:58 PM [vite] server restarted.
+[CRM] [2026-04-20T11:21:05.393Z] GET /api/mail/oauth/callback?iss=https://accounts.google.com&code=4/0Aci98E_DAh714eS5Xl6OSxbonYs5WJ7ru_0sZmLwGb_XvauninYFMqk-X7Am8GxHiccRLQ&scope=email%20https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/gmail.send%20https://www.googleapis.com/auth/userinfo.email%20openid&authuser=1&hd=eliteautomations.co.uk&prompt=consent 500 59ms
+[CRM] [2026-04-20T11:21:23.651Z] GET /api/leads 200 1ms
+[CRM] [2026-04-20T11:21:33.036Z] POST /api/mail/send 200 2ms
+[CRM] [2026-04-20T11:22:40.114Z] GET /api/mail/oauth/url 200 1ms
+[CRM] [2026-04-20T11:22:40.606Z] GET /api/mail/inbox?maxResults=50 200 497ms
+[CRM] [2026-04-20T11:25:10.119Z] GET /api/mail/oauth/url 200 11ms
+[CRM] [2026-04-20T11:25:10.170Z] GET /api/client-360 200 47ms
+[CRM] [2026-04-20T11:25:10.213Z] GET /api/openclaw/agents 200 42ms
+[CRM] [2026-04-20T11:25:10.213Z] GET /api/openclaw/approvals 200 42ms
+[CRM] [2026-04-20T11:25:11.107Z] GET /api/mail/inbox?maxResults=50 200 1030ms
+[CRM] [2026-04-20T11:25:40.380Z] GET /api/leads 200 1ms
+[CRM] [2026-04-20T11:26:02.505Z] POST /api/mail/send 200 1ms
+[CRM] [2026-04-20T11:26:25.147Z] GET /api/mail/generate-template?clientId=EA-2026-000026 200 4ms
+[CRM] [2026-04-20T11:26:29.340Z] POST /api/mail/send 200 3ms
+[CRM] [2026-04-20T11:26:46.589Z] GET /api/leads 200 2ms
+[CRM] [2026-04-20T11:26:48.413Z] GET /api/mail/templates 200 0ms
+[CRM] [2026-04-20T11:29:31.110Z] GET /api/mail/oauth/url 200 0ms
+[CRM] [2026-04-20T11:29:31.676Z] GET /api/mail/inbox?maxResults=50 200 572ms
+[CRM] [2026-04-20T11:30:00.711Z] GET /api/mail/oauth/callback?iss=https://accounts.google.com&code=4/0Aci98E8a-EvajmTrcIgz4PLMNGt7JxVjle9Mxdn7osZh0c_qcDyvDqSxiu2dwOR5TIM0mQ&scope=email%20https://www.googleapis.com/auth/gmail.readonly%20https://www.googleapis.com/auth/gmail.send%20https://www.googleapis.com/auth/userinfo.email%20openid&authuser=1&hd=eliteautomations.co.uk&prompt=consent 200 345ms
+[FRONTEND] 12:30:00 PM [vite] .env.local changed, restarting server...
+[FRONTEND] 12:30:01 PM [vite] server restarted.
+[CRM] [2026-04-20T11:30:37.709Z] GET /api/state 200 7ms
+[CRM] [2026-04-20T11:30:37.727Z] GET /api/accounts 200 0ms
+[CRM] [2026-04-20T11:30:37.755Z] GET /api/client-360 200 28ms
+[CRM] [2026-04-20T11:30:37.763Z] GET /api/openclaw/agents 200 8ms
+[CRM] [2026-04-20T11:30:37.763Z] GET /api/openclaw/approvals 200 7ms
+[CRM] [2026-04-20T11:30:38.003Z] GET /api/metrics 200 293ms
+[CRM] [2026-04-20T11:30:54.142Z] GET /api/openclaw/system 200 6ms
+[CRM] [2026-04-20T11:30:54.144Z] GET /api/openclaw/memory?q= 200 2ms
+[CRM] [2026-04-20T11:30:54.153Z] GET /api/openclaw/sessions 200 24ms
+[CRM] [2026-04-20T11:30:54.798Z] GET /api/leads 200 2ms
+[CRM] [2026-04-20T11:30:54.801Z] GET /api/leads/search/status 200 0ms
+[CRM] [2026-04-20T11:30:54.803Z] GET /api/pipeline/results 200 2ms
+[CRM] [2026-04-20T11:30:59.089Z] GET /api/mail/oauth/url 200 1ms
+[CRM] [2026-04-20T11:30:59.607Z] GET /api/mail/inbox?maxResults=50 200 522ms
+[CRM] [2026-04-20T13:32:32.180Z] GET /api/mail/oauth/url 200 1ms
+[CRM] [2026-04-20T13:32:32.188Z] GET /api/client-360 200 8ms
+[CRM] [2026-04-20T13:32:32.197Z] GET /api/openclaw/approvals 200 8ms
+[CRM] [2026-04-20T13:32:32.197Z] GET /api/openclaw/agents 200 9ms
+[CRM] [2026-04-20T13:32:32.834Z] GET /api/mail/inbox?maxResults=50 200 676ms
+[CRM] [2026-04-20T13:32:40.610Z] GET /api/leads/EA-2026-000025 200 1ms
+[CRM] [2026-04-20T13:32:44.087Z] POST /api/leads/EA-2026-000025/email 500 5ms
+[CRM] [2026-04-20T13:32:45.295Z] POST /api/leads/EA-2026-000025/video 500 434ms
+[CRM] [2026-04-20T13:32:45.820Z] POST /api/leads/EA-2026-000025/demo 500 367ms
+[CRM] npm run dashboard:dev exited with code SIGKILL
+[FRONTEND] 4:41:33 PM [vite] (client) page reload src/pages/mail/ComposePage.tsx
+[FRONTEND] 4:52:52 PM [vite] (client) page reload src/pages/LeadsPipelinePage.tsx
+[FRONTEND] 6:44:18 PM [vite] (client) page reload src/components/layout/AppShell.tsx
+[FRONTEND] 6:44:36 PM [vite] (client) page reload src/pages/PlannerPage.tsx
+[FRONTEND] 6:44:41 PM [vite] (client) page reload src/pages/PlannerPage.tsx
+[FRONTEND] 6:44:48 PM [vite] (client) page reload src/pages/PlannerPage.tsx
+[FRONTEND] 6:45:06 PM [vite] (client) page reload src/pages/SettingsPage.tsx
+[FRONTEND] 6:45:11 PM [vite] (client) page reload src/pages/SettingsPage.tsx
+[FRONTEND] 6:45:15 PM [vite] (client) page reload src/components/ui/Button.tsx
+[FRONTEND] 6:45:20 PM [vite] (client) page reload src/components/ui/Card.tsx
+[FRONTEND] 6:45:30 PM [vite] (client) page reload src/components/layout/PageWrapper.tsx
+[FRONTEND] 6:45:38 PM [vite] (client) page reload src/components/layout/ModuleRail.tsx
+[FRONTEND] 6:45:45 PM [vite] (client) page reload src/components/layout/MobileNav.tsx
+[FRONTEND] 6:49:04 PM [vite] (client) page reload output/demos/the-best-10-restaurants-near-manchester-richmond-demo.html
+[FRONTEND] 6:49:04 PM [vite] (client) page reload output/demos/the-best-10-restaurants-near-manchester-richmond-demo.html
+[FRONTEND] 6:49:07 PM [vite] (client) page reload output/demos/the-best-10-restaurants-near-manchester-richmond-demo.html
+[FRONTEND] 9:14:19 PM [vite] (client) page reload src/pages/ops/AutomationPage.tsx
+[FRONTEND] 9:16:01 PM [vite] (client) page reload src/pages/ops/AutomationPage.tsx
+[FRONTEND] 9:16:07 PM [vite] (client) page reload src/pages/ops/AutomationPage.tsx
+[FRONTEND] 9:51:13 PM [vite] (client) page reload src/pages/ops/AutomationPage.tsx
+[FRONTEND] 11:45:32 PM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 11:45:34 PM [vite] http proxy error: /api/leads
+[FRONTEND] Error: connect ECONNREFUSED 127.0.0.1:3007
+[FRONTEND]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[FRONTEND] 11:45:34 PM [vite] http proxy error: /api/pipeline/results
+[FRONTEND] Error: connect ECONNREFUSED 127.0.0.1:3007
+[FRONTEND]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[FRONTEND] 11:45:34 PM [vite] http proxy error: /api/leads/search/status
+[FRONTEND] Error: connect ECONNREFUSED 127.0.0.1:3007
+[FRONTEND]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[FRONTEND] 11:45:34 PM [vite] http proxy error: /api/metrics
+[FRONTEND] Error: connect ECONNREFUSED 127.0.0.1:3007
+[FRONTEND]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[FRONTEND] 11:45:34 PM [vite] http proxy error: /api/client-360
+[FRONTEND] Error: connect ECONNREFUSED 127.0.0.1:3007
+[FRONTEND]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[FRONTEND] 11:45:34 PM [vite] http proxy error: /api/openclaw/agents
+[FRONTEND] Error: connect ECONNREFUSED 127.0.0.1:3007
+[FRONTEND]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[FRONTEND] 11:45:34 PM [vite] http proxy error: /api/openclaw/approvals
+[FRONTEND] Error: connect ECONNREFUSED 127.0.0.1:3007
+[FRONTEND]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[FRONTEND] 11:45:52 PM [vite] http proxy error: /api/automation/hourly
+[FRONTEND] Error: connect ECONNREFUSED 127.0.0.1:3007
+[FRONTEND]     at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1637:16)
+[FRONTEND] 11:50:55 PM [vite] (client) hmr update /src/styles/base.css, /src/styles/tokens.css
+[FRONTEND] 11:51:58 PM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 11:56:44 PM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 11:58:13 PM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 12:04:21 AM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 12:04:44 AM [vite] (client) page reload src/components/features/ActivityFeed.tsx
+[FRONTEND] 12:04:44 AM [vite] (client) page reload src/pages/ops/SystemHealthPage.tsx
+[FRONTEND] 12:04:46 AM [vite] (client) page reload src/stores/theme-store.ts
+[FRONTEND] 12:04:47 AM [vite] (client) page reload src/components/features/NextUpCard.tsx
+[FRONTEND] 12:04:48 AM [vite] (client) page reload src/components/layout/ModuleSidebar.tsx
+[FRONTEND] 12:04:48 AM [vite] (client) page reload src/components/ui/Button.tsx
+[FRONTEND] 12:04:48 AM [vite] (client) page reload src/components/layout/PageWrapper.tsx
+[FRONTEND] 12:04:49 AM [vite] (client) page reload src/components/features/HourlyPlanner.tsx
+[FRONTEND] 12:04:49 AM [vite] (client) page reload src/components/layout/ModuleRail.tsx
+[FRONTEND] 12:04:49 AM [vite] (client) page reload output/demos/the-best-10-restaurants-near-manchester-richmond-demo.html
+[FRONTEND] 12:04:51 AM [vite] (client) page reload src/hooks/use-time.ts
+[FRONTEND] 12:04:51 AM [vite] (client) page reload src/pages/ai/AgentRunnerPage.tsx
+[FRONTEND] 12:04:52 AM [vite] (client) page reload src/pages/LeadsPipelinePage.tsx
+[FRONTEND] 12:04:52 AM [vite] (client) page reload src/pages/calls/CallsOverviewPage.tsx
+[FRONTEND] 12:04:52 AM [vite] (client) page reload src/pages/calls/CallLogsPage.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/pages/pay/PaymentLinksPage.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/components/ui/Badge.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/pages/mail/ComposePage.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/components/ui/Card.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/components/layout/TopBar.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/components/features/LeadStatusBadge.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/components/ui/Timeline.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/components/layout/AppShell.tsx
+[FRONTEND] 12:04:53 AM [vite] (client) page reload src/pages/pay/CustomersPage.tsx
+[FRONTEND] 12:04:54 AM [vite] (client) page reload src/components/features/ScheduleComposer.tsx
+[FRONTEND] 12:04:54 AM [vite] (client) page reload src/stores/schedule-store.ts
+[FRONTEND] 12:04:54 AM [vite] (client) page reload src/components/layout/MobileNav.tsx
+[FRONTEND] 12:04:55 AM [vite] (client) page reload src/components/ui/Modal.tsx
+[FRONTEND] 12:04:55 AM [vite] (client) page reload src/components/ui/StatCard.tsx
+[FRONTEND] 12:04:56 AM [vite] (client) page reload src/components/ui/Input.tsx
+[FRONTEND] 12:04:56 AM [vite] (client) page reload src/pages/SettingsPage.tsx
+[FRONTEND] 12:04:56 AM [vite] (client) page reload src/pages/PlannerPage.tsx
+[FRONTEND] 12:04:56 AM [vite] (client) page reload src/pages/TimelinePage.tsx
+[FRONTEND] 12:04:56 AM [vite] (client) page reload src/pages/crm/CRMOverviewPage.tsx
+[FRONTEND] 12:04:58 AM [vite] (client) page reload src/pages/ops/OpsMetricsPage.tsx
+[FRONTEND] 12:04:59 AM [vite] (client) page reload src/components/os/GlobalCommandPalette.tsx
+[FRONTEND] 12:05:03 AM [vite] (client) page reload src/pages/AgentsPage.tsx
+[FRONTEND] 12:05:04 AM [vite] (client) page reload src/pages/pay/InvoicesPage.tsx
+[FRONTEND] 12:05:04 AM [vite] (client) page reload src/pages/AnalyticsPage.tsx
+[FRONTEND] 12:05:04 AM [vite] changed tsconfig file detected: /Users/hamidamjad/Documents/Playground/elite-automations/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[FRONTEND] 12:05:05 AM [vite] (client) page reload src/pages/crm/ActivityPage.tsx
+[FRONTEND] 12:05:05 AM [vite] (client) page reload src/stores/settings-store.ts
+[FRONTEND] 12:05:05 AM [vite] (client) page reload src/pages/ai/IntelPage.tsx
+[FRONTEND] 12:05:05 AM [vite] (client) page reload src/pages/crm/ContactsPage.tsx
+[FRONTEND] 12:06:20 AM [vite] (client) page reload src/pages/ops/AutomationPage.tsx
+[FRONTEND] 12:06:26 AM [vite] (client) page reload src/components/features/crm/NewAccountModal.tsx
+[FRONTEND] 12:06:27 AM [vite] (client) page reload src/components/ui/Switch.tsx
+[FRONTEND] 12:07:32 AM [vite] changed tsconfig file detected: /Users/hamidamjad/Documents/Playground/elite-automations/client/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[FRONTEND] 12:07:32 AM [vite] (client) page reload client/index.html
+[FRONTEND] 12:07:32 AM [vite] (client) page reload src/pages/calls/OutboundCallPage.tsx
+[FRONTEND] 12:07:47 AM [vite] (client) page reload src/pages/ops/WorkflowsPage.tsx
+[FRONTEND] 12:07:52 AM [vite] (client) page reload src/main.tsx
+[FRONTEND] 12:07:52 AM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 12:07:53 AM [vite] (client) page reload src/pages/mail/CampaignsPage.tsx
+[FRONTEND] 12:07:57 AM [vite] (client) page reload src/pages/vid/VidAssetsPage.tsx
+[FRONTEND] 12:09:42 AM [vite] (client) page reload src/stores/theme-store.ts
+[FRONTEND] 12:09:42 AM [vite] (client) page reload src/components/features/ActivityFeed.tsx
+[FRONTEND] 12:09:42 AM [vite] (client) page reload src/pages/ops/SystemHealthPage.tsx
+[FRONTEND] 12:09:43 AM [vite] (client) page reload src/components/features/NextUpCard.tsx
+[FRONTEND] 12:10:20 AM [vite] (client) page reload src/main.tsx
+[FRONTEND] 12:10:26 AM [vite] (client) page reload src/components/ui/Badge.tsx
+[FRONTEND] 12:10:26 AM [vite] (client) page reload src/components/ui/Card.tsx
+[FRONTEND] 12:10:26 AM [vite] (client) page reload src/components/ui/Button.tsx
+[FRONTEND] 12:17:59 AM [vite] (client) hmr update /src/styles/base.css, /src/styles/tokens.css
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/components/layout/PageWrapper.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/components/features/ActivityFeed.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/pages/ops/SystemHealthPage.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/stores/theme-store.ts
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/components/features/NextUpCard.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/components/ui/Badge.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/main.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/pages/pay/ProductsPage.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/pages/ai/ImageGenPage.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/pages/ai/AICommandPage.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/pages/pay/PayRevenuePage.tsx
+[FRONTEND] 12:18:00 AM [vite] (client) page reload src/pages/mail/TemplatesPage.tsx
+[FRONTEND] 12:18:01 AM [vite] (client) page reload src/components/features/crm/NewAccountModal.tsx
+[FRONTEND] 12:18:02 AM [vite] (client) page reload src/components/layout/AppShell.tsx
+[FRONTEND] 12:18:03 AM [vite] (client) page reload src/pages/AnalyticsPage.tsx
+[FRONTEND] 12:18:03 AM [vite] (client) page reload src/pages/AgentsPage.tsx
+[FRONTEND] 12:18:04 AM [vite] changed tsconfig file detected: /Users/hamidamjad/Documents/Playground/elite-automations/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[FRONTEND] 12:18:04 AM [vite] (client) page reload src/pages/PlannerPage.tsx
+[FRONTEND] 12:18:04 AM [vite] (client) page reload src/pages/LeadsPipelinePage.tsx
+[FRONTEND] 12:18:05 AM [vite] (client) page reload src/pages/crm/CRMOverviewPage.tsx
+[FRONTEND] 12:18:05 AM [vite] (client) page reload src/pages/crm/ContactsPage.tsx
+[FRONTEND] 12:18:05 AM [vite] (client) page reload src/pages/ai/ImageGenPage.tsx
+[FRONTEND] 12:18:06 AM [vite] (client) page reload src/pages/ai/AICommandPage.tsx
+[FRONTEND] 12:18:06 AM [vite] (client) page reload src/pages/ai/AgentRunnerPage.tsx
+[FRONTEND] 12:18:06 AM [vite] (client) page reload src/pages/ai/IntelPage.tsx
+[FRONTEND] 12:18:07 AM [vite] (client) page reload src/pages/mail/ComposePage.tsx
+[FRONTEND] 12:18:07 AM [vite] (client) page reload src/pages/mail/TemplatesPage.tsx
+[FRONTEND] 12:18:07 AM [vite] (client) page reload src/pages/pay/PayRevenuePage.tsx
+[FRONTEND] 12:18:08 AM [vite] (client) page reload src/pages/mail/CampaignsPage.tsx
+[FRONTEND] 12:18:08 AM [vite] (client) page reload src/pages/pay/PaymentLinksPage.tsx
+[FRONTEND] 12:18:08 AM [vite] (client) page reload src/pages/pay/InvoicesPage.tsx
+[FRONTEND] 12:18:08 AM [vite] (client) page reload src/pages/pay/CustomersPage.tsx
+[FRONTEND] 12:18:09 AM [vite] (client) page reload src/pages/pay/ProductsPage.tsx
+[FRONTEND] 12:18:09 AM [vite] (client) page reload src/pages/ops/AutomationPage.tsx
+[FRONTEND] 12:18:10 AM [vite] (client) page reload src/pages/ops/WorkflowsPage.tsx
+[FRONTEND] 12:18:10 AM [vite] (client) page reload src/pages/crm/ActivityPage.tsx
+[FRONTEND] 12:18:11 AM [vite] (client) page reload src/pages/TimelinePage.tsx
+[FRONTEND] 12:18:11 AM [vite] (client) page reload src/pages/calls/CallsOverviewPage.tsx
+[FRONTEND] 12:18:12 AM [vite] (client) page reload src/pages/vid/VidAssetsPage.tsx
+[FRONTEND] 12:18:12 AM [vite] (client) page reload src/pages/calls/CallLogsPage.tsx
+[FRONTEND] 12:18:12 AM [vite] (client) page reload src/pages/calls/OutboundCallPage.tsx
+[FRONTEND] 12:18:13 AM [vite] (client) page reload src/pages/PlannerPage.tsx
+[FRONTEND] 12:18:13 AM [vite] (client) page reload src/pages/pay/PaymentLinksPage.tsx
+[FRONTEND] 12:18:13 AM [vite] (client) page reload src/hooks/use-time.ts
+[FRONTEND] 12:18:14 AM [vite] (client) page reload src/stores/theme-store.ts
+[FRONTEND] 12:18:14 AM [vite] (client) page reload src/pages/ops/OpsMetricsPage.tsx
+[FRONTEND] 12:18:14 AM [vite] (client) page reload src/pages/SettingsPage.tsx
+[FRONTEND] 12:18:15 AM [vite] (client) page reload src/components/ui/Input.tsx
+[FRONTEND] 12:18:15 AM [vite] (client) page reload src/components/layout/TopBar.tsx
+[FRONTEND] 12:18:15 AM [vite] (client) page reload src/components/layout/ModuleSidebar.tsx
+[FRONTEND] 12:18:16 AM [vite] (client) page reload src/components/ui/Modal.tsx
+[FRONTEND] 12:18:16 AM [vite] (client) page reload src/components/layout/MobileNav.tsx
+[FRONTEND] 12:18:17 AM [vite] (client) page reload src/components/layout/ModuleSidebar.tsx
+[FRONTEND] 12:18:17 AM [vite] (client) page reload src/components/features/LeadStatusBadge.tsx
+[FRONTEND] 12:18:18 AM [vite] (client) page reload src/components/layout/ModuleRail.tsx
+[FRONTEND] 12:18:18 AM [vite] (client) page reload src/components/os/GlobalCommandPalette.tsx
+[FRONTEND] 12:18:19 AM [vite] (client) page reload src/components/ui/StatCard.tsx
+[FRONTEND] 12:18:19 AM [vite] (client) page reload src/components/features/ScheduleComposer.tsx
+[FRONTEND] 12:18:20 AM [vite] (client) page reload src/components/features/ActivityFeed.tsx
+[FRONTEND] 12:18:20 AM [vite] (client) page reload src/stores/schedule-store.ts
+[FRONTEND] 12:18:20 AM [vite] (client) page reload src/components/features/HourlyPlanner.tsx
+[FRONTEND] 12:18:20 AM [vite] (client) page reload src/components/os/GlobalCommandPalette.tsx
+[FRONTEND] 12:18:20 AM [vite] (client) page reload src/stores/settings-store.ts
+[FRONTEND] 12:18:21 AM [vite] (client) page reload src/components/ui/Switch.tsx
+[FRONTEND] 12:20:00 AM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 12:27:12 AM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 12:28:07 AM [vite] (client) page reload src/pages/CommandCentrePage.tsx
+[FRONTEND] 12:33:03 AM [vite] (client) page reload src/components/features/NextUpCard.tsx
+[FRONTEND] 12:33:07 AM [vite] (client) page reload src/components/ui/Timeline.tsx
+[FRONTEND] 12:33:37 AM [vite] (client) page reload src/pages/AgentsPage.tsx
+[FRONTEND] 12:33:50 AM [vite] (client) page reload src/pages/AgentsPage.tsx
+[FRONTEND] 12:36:09 AM [vite] (client) page reload src/app/App.tsx
+[FRONTEND] 12:37:12 AM [vite] (client) page reload src/app/App.tsx
+[FRONTEND] 12:38:16 AM [vite] (client) page reload index.html
+[FRONTEND] 12:38:19 AM [vite] (client) page reload output/demos/the-best-10-restaurants-near-manchester-richmond-demo.html
+[FRONTEND] 12:38:44 AM [vite] changed tsconfig file detected: /Users/hamidamjad/Documents/Playground/elite-automations/client/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[FRONTEND] 12:38:44 AM [vite] changed tsconfig file detected: /Users/hamidamjad/Documents/Playground/elite-automations/client/tsconfig.json - Clearing cache and forcing full-reload to ensure TypeScript is compiled with updated config values.
+[FRONTEND] 12:38:45 AM [vite] (client) page reload client/index.html
+[FRONTEND] 12:38:46 AM [vite] (client) page reload index.html
+[FRONTEND] 12:39:02 AM [vite] vite.config.ts changed, restarting server...
+[FRONTEND] 12:39:03 AM [vite] (client) Re-optimizing dependencies because lockfile has changed
+[FRONTEND] 12:39:03 AM [vite] server restarted.
+[FRONTEND] 12:39:04 AM [vite] (client) [optimizer] scanning dependencies...
+[FRONTEND] npm run frontend:dev exited with code SIGTERM

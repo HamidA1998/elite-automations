@@ -1,0 +1,230 @@
+Dashboard live at http://127.0.0.1:3007
+SQLite CRM active at /Users/hamidamjad/Documents/Playground/elite-automations/output/elite-ops.sqlite
+Watching output/ for pipeline updates...
+[2026-05-02T22:48:36.028Z] GET /api/health 200 15ms
+[2026-05-02T22:50:30.900Z] GET /api/state 200 108ms
+[2026-05-02T22:50:30.955Z] GET /api/state 200 21ms
+[2026-05-02T22:50:43.028Z] GET /api/state 200 11ms
+[2026-05-02T22:50:43.042Z] GET /api/state 200 11ms
+[2026-05-02T22:57:27.843Z] GET /api/state 200 49ms
+[2026-05-02T22:57:27.866Z] GET /api/accounts?page=1 200 17ms
+[2026-05-02T22:57:35.462Z] GET /api/state 200 3ms
+[2026-05-02T23:06:16.143Z] GET /api/state 200 40ms
+[2026-05-02T23:06:16.153Z] GET /api/state 200 4ms
+[2026-05-02T23:06:44.271Z] GET /api/state 200 12ms
+[2026-05-02T23:06:44.283Z] GET /api/state 200 10ms
+[2026-05-02T23:06:56.797Z] GET /api/state 200 5ms
+[2026-05-02T23:06:56.804Z] GET /api/state 200 5ms
+[2026-05-02T23:07:34.800Z] GET /api/state 200 35ms
+[2026-05-02T23:07:34.822Z] GET /api/state 200 8ms
+[2026-05-02T23:07:49.131Z] GET /api/openclaw/system 200 9ms
+[2026-05-02T23:07:49.135Z] GET /api/openclaw/system 200 0ms
+[2026-05-02T23:07:49.175Z] GET /api/openclaw/agents 200 56ms
+[2026-05-02T23:07:49.233Z] GET /api/openclaw/agents 200 57ms
+[2026-05-02T23:13:38.847Z] GET / 200 4ms
+[2026-05-02T23:13:38.907Z] GET /assets/index-DtMMsnAf.css 200 3ms
+[Pipeline 649bbdacaad4] search: Searching: "local businesses Greater Manchester with outdated websites weak online booking or missed enquiry automation" in Greater Manchester
+Firecrawl search unavailable, using local discovery: Insufficient credits to perform this request. For more credits, you can upgrade your plan at https://firecrawl.dev/pricing or try changing the request limit to a lower value.
+[Pipeline 649bbdacaad4] search: Found 50 direct business website candidates
+[Pipeline 649bbdacaad4] lead[0]: Processing: Simister Interchange
+[Pipeline 649bbdacaad4] lead[0]: Found existing client: EA-2026-000027
+[Pipeline 649bbdacaad4] lead[0]: Hero image generated
+[Pipeline 649bbdacaad4] lead[0]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[1]: Processing: Whitefield Interchange
+[Pipeline 649bbdacaad4] lead[1]: Found existing client: EA-2026-000028
+[Pipeline 649bbdacaad4] lead[1]: Hero image generated
+[Pipeline 649bbdacaad4] lead[1]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[2]: Processing: Clifton Junction
+[Pipeline 649bbdacaad4] lead[2]: Found existing client: EA-2026-000029
+[Pipeline 649bbdacaad4] lead[2]: Hero image generated
+[Pipeline 649bbdacaad4] lead[2]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[3]: Processing: Worsley Interchange
+[Pipeline 649bbdacaad4] lead[3]: Found existing client: EA-2026-000030
+[Pipeline 649bbdacaad4] lead[3]: Hero image generated
+[Pipeline 649bbdacaad4] lead[3]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[4]: Processing: Eccles Interchange
+[Pipeline 649bbdacaad4] lead[4]: Found existing client: EA-2026-000031
+[Pipeline 649bbdacaad4] lead[4]: Hero image generated
+[Pipeline 649bbdacaad4] lead[4]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[5]: Processing: Rhodes Interchange
+[Pipeline 649bbdacaad4] lead[5]: Found existing client: EA-2026-000032
+[Pipeline 649bbdacaad4] lead[5]: Hero image generated
+[Pipeline 649bbdacaad4] lead[5]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[6]: Processing: Carrington Interchange
+[Pipeline 649bbdacaad4] lead[6]: Found existing client: EA-2026-000033
+[Pipeline 649bbdacaad4] lead[6]: Hero image generated
+[Pipeline 649bbdacaad4] lead[6]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[7]: Processing: Lostock
+[Pipeline 649bbdacaad4] lead[7]: Found existing client: EA-2026-000034
+[Pipeline 649bbdacaad4] lead[7]: Hero image generated
+[Pipeline 649bbdacaad4] lead[7]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[8]: Processing: Redclyffe
+[Pipeline 649bbdacaad4] lead[8]: Found existing client: EA-2026-000035
+[Pipeline 649bbdacaad4] lead[8]: Hero image generated
+[Pipeline 649bbdacaad4] lead[8]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[9]: Processing: Gilda Brook Roundabout
+[Pipeline 649bbdacaad4] lead[9]: Found existing client: EA-2026-000036
+[Pipeline 649bbdacaad4] lead[9]: Hero image generated
+[Pipeline 649bbdacaad4] lead[9]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[10]: Processing: Regent Road Roundabout
+[Pipeline 649bbdacaad4] lead[10]: Found existing client: EA-2026-000037
+[Pipeline 649bbdacaad4] lead[10]: Hero image generated
+[Pipeline 649bbdacaad4] lead[10]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[11]: Processing: Worsley Braided Interchange
+[Pipeline 649bbdacaad4] lead[11]: Found existing client: EA-2026-000038
+[Pipeline 649bbdacaad4] lead[11]: Hero image generated
+[Pipeline 649bbdacaad4] lead[11]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[12]: Processing: Pilsworth Interchange
+[Pipeline 649bbdacaad4] lead[12]: Found existing client: EA-2026-000039
+[Pipeline 649bbdacaad4] lead[12]: Hero image generated
+[Pipeline 649bbdacaad4] lead[12]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[13]: Processing: Deansgate Interchange
+[Pipeline 649bbdacaad4] lead[13]: Found existing client: EA-2026-000040
+[Pipeline 649bbdacaad4] lead[13]: Hero image generated
+[Pipeline 649bbdacaad4] lead[13]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[14]: Processing: Cambridge Street Junction
+[Pipeline 649bbdacaad4] lead[14]: Found existing client: EA-2026-000041
+[Pipeline 649bbdacaad4] lead[14]: Hero image generated
+[Pipeline 649bbdacaad4] lead[14]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[15]: Processing: Downing Street Junction
+[Pipeline 649bbdacaad4] lead[15]: Found existing client: EA-2026-000042
+[Pipeline 649bbdacaad4] lead[15]: Hero image generated
+[Pipeline 649bbdacaad4] lead[15]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[16]: Processing: Brooks Bar
+[Pipeline 649bbdacaad4] lead[16]: Found existing client: EA-2026-000043
+[Pipeline 649bbdacaad4] lead[16]: Hero image generated
+[Pipeline 649bbdacaad4] lead[16]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[17]: Processing: Old Trafford
+[Pipeline 649bbdacaad4] lead[17]: Found existing client: EA-2026-000044
+[Pipeline 649bbdacaad4] lead[17]: Hero image generated
+[Pipeline 649bbdacaad4] lead[17]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[18]: Processing: Throstle Nest Junction
+[Pipeline 649bbdacaad4] lead[18]: Found existing client: EA-2026-000045
+[Pipeline 649bbdacaad4] lead[18]: Hero image generated
+[Pipeline 649bbdacaad4] lead[18]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[19]: Processing: Salford Central
+[Pipeline 649bbdacaad4] lead[19]: Found existing client: EA-2026-000046
+[Pipeline 649bbdacaad4] lead[19]: Hero image generated
+[Pipeline 649bbdacaad4] lead[19]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[20]: Processing: Roundabout
+[Pipeline 649bbdacaad4] lead[20]: Found existing client: EA-2026-000047
+[Pipeline 649bbdacaad4] lead[20]: Hero image generated
+[Pipeline 649bbdacaad4] lead[20]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[21]: Processing: Peel Green Interchange
+[Pipeline 649bbdacaad4] lead[21]: Found existing client: EA-2026-000048
+[Pipeline 649bbdacaad4] lead[21]: Hero image generated
+[Pipeline 649bbdacaad4] lead[21]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[22]: Processing: Chester Road Interchange
+[Pipeline 649bbdacaad4] lead[22]: Found existing client: EA-2026-000049
+[Pipeline 649bbdacaad4] lead[22]: Hero image generated
+[Pipeline 649bbdacaad4] lead[22]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[23]: Processing: Dane Road
+[Pipeline 649bbdacaad4] lead[23]: Found existing client: EA-2026-000050
+[Pipeline 649bbdacaad4] lead[23]: Hero image generated
+[Pipeline 649bbdacaad4] lead[23]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[24]: Processing: Kearsley
+[Pipeline 649bbdacaad4] lead[24]: Found existing client: EA-2026-000051
+[Pipeline 649bbdacaad4] lead[24]: Hero image generated
+[Pipeline 649bbdacaad4] lead[24]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[25]: Processing: Kearsley Junction
+[Pipeline 649bbdacaad4] lead[25]: Found existing client: EA-2026-000052
+[Pipeline 649bbdacaad4] lead[25]: Hero image generated
+[Pipeline 649bbdacaad4] lead[25]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[26]: Processing: Clifton
+[Pipeline 649bbdacaad4] lead[26]: Found existing client: EA-2026-000053
+[Pipeline 649bbdacaad4] lead[26]: Hero image generated
+[Pipeline 649bbdacaad4] lead[26]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[27]: Processing: Agecroft Bridge
+[Pipeline 649bbdacaad4] lead[27]: Found existing client: EA-2026-000054
+[Pipeline 649bbdacaad4] lead[27]: Hero image generated
+[Pipeline 649bbdacaad4] lead[27]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[28]: Processing: Water's Meet
+[Pipeline 649bbdacaad4] lead[28]: Found existing client: EA-2026-000055
+[Pipeline 649bbdacaad4] lead[28]: Hero image generated
+[Pipeline 649bbdacaad4] lead[28]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[29]: Processing: Salford Crescent
+[Pipeline 649bbdacaad4] lead[29]: Found existing client: EA-2026-000056
+[Pipeline 649bbdacaad4] lead[29]: Hero image generated
+[Pipeline 649bbdacaad4] lead[29]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[30]: Processing: Lamb's Cottage
+[Pipeline 649bbdacaad4] lead[30]: Found existing client: EA-2026-000057
+[Pipeline 649bbdacaad4] lead[30]: Hero image generated
+[Pipeline 649bbdacaad4] lead[30]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[31]: Processing: Stretford
+[Pipeline 649bbdacaad4] lead[31]: Found existing client: EA-2026-000058
+[Pipeline 649bbdacaad4] lead[31]: Hero image generated
+[Pipeline 649bbdacaad4] lead[31]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[32]: Processing: Eccles
+[Pipeline 649bbdacaad4] lead[32]: Found existing client: EA-2026-000059
+[Pipeline 649bbdacaad4] lead[32]: Hero image generated
+[Pipeline 649bbdacaad4] lead[32]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[33]: Processing: Wardley Interchange
+[Pipeline 649bbdacaad4] lead[33]: Found existing client: EA-2026-000060
+[Pipeline 649bbdacaad4] lead[33]: Hero image generated
+[Pipeline 649bbdacaad4] lead[33]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[34]: Processing: Pendleton Roundabout
+[Pipeline 649bbdacaad4] lead[34]: Found existing client: EA-2026-000061
+[Pipeline 649bbdacaad4] lead[34]: Hero image generated
+[Pipeline 649bbdacaad4] lead[34]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[35]: Processing: Chorlton Cross
+[Pipeline 649bbdacaad4] lead[35]: Found existing client: EA-2026-000062
+[Pipeline 649bbdacaad4] lead[35]: Hero image generated
+[Pipeline 649bbdacaad4] lead[35]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[36]: Processing: Salford
+[Pipeline 649bbdacaad4] lead[36]: Found existing client: EA-2026-000063
+[Pipeline 649bbdacaad4] lead[36]: Hero image generated
+[Pipeline 649bbdacaad4] lead[36]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[37]: Processing: Chorlton
+[Pipeline 649bbdacaad4] lead[37]: Created client record: EA-2026-000064
+[Pipeline 649bbdacaad4] lead[37]: Hero image generated
+[Pipeline 649bbdacaad4] lead[37]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[38]: Processing: Trafford Bar
+[Pipeline 649bbdacaad4] lead[38]: Created client record: EA-2026-000065
+[Pipeline 649bbdacaad4] lead[38]: Hero image generated
+[Pipeline 649bbdacaad4] lead[38]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[39]: Processing: Shell
+Firecrawl scrape unavailable for https://find.shell.com/gb/fuel/10348194-mfg-chorlton-motoring-centre, using local crawler: Insufficient credits to perform this request. For more credits, you can upgrade your plan at https://firecrawl.dev/pricing or try changing the request limit to a lower value.
+[Pipeline 649bbdacaad4] lead[39]: Created client record: EA-2026-000066
+[Pipeline 649bbdacaad4] lead[39]: Hero image generated
+[Pipeline 649bbdacaad4] lead[39]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[40]: Processing: Radcliffe
+[Pipeline 649bbdacaad4] lead[40]: Created client record: EA-2026-000067
+[Pipeline 649bbdacaad4] lead[40]: Hero image generated
+[Pipeline 649bbdacaad4] lead[40]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[41]: Processing: Prestwich
+[Pipeline 649bbdacaad4] lead[41]: Created client record: EA-2026-000068
+[Pipeline 649bbdacaad4] lead[41]: Hero image generated
+[Pipeline 649bbdacaad4] lead[41]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[42]: Processing: Tyldesley
+[Pipeline 649bbdacaad4] lead[42]: Created client record: EA-2026-000069
+[Pipeline 649bbdacaad4] lead[42]: Hero image generated
+[Pipeline 649bbdacaad4] lead[42]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[43]: Processing: Winton
+[Pipeline 649bbdacaad4] lead[43]: Created client record: EA-2026-000070
+[Pipeline 649bbdacaad4] lead[43]: Hero image generated
+[Pipeline 649bbdacaad4] lead[43]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[44]: Processing: Swinton
+[Pipeline 649bbdacaad4] lead[44]: Created client record: EA-2026-000071
+[Pipeline 649bbdacaad4] lead[44]: Hero image generated
+[Pipeline 649bbdacaad4] lead[44]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[45]: Processing: Davyhulme
+[Pipeline 649bbdacaad4] lead[45]: Created client record: EA-2026-000072
+[Pipeline 649bbdacaad4] lead[45]: Hero image generated
+[Pipeline 649bbdacaad4] lead[45]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[46]: Processing: Urmston
+[Pipeline 649bbdacaad4] lead[46]: Created client record: EA-2026-000073
+[Pipeline 649bbdacaad4] lead[46]: Hero image generated
+[Pipeline 649bbdacaad4] lead[46]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[47]: Processing: Irlam
+[Pipeline 649bbdacaad4] lead[47]: Created client record: EA-2026-000074
+[Pipeline 649bbdacaad4] lead[47]: Hero image generated
+[Pipeline 649bbdacaad4] lead[47]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[48]: Processing: Ashton upon Mersey
+[Pipeline 649bbdacaad4] lead[48]: Created client record: EA-2026-000075
+[Pipeline 649bbdacaad4] lead[48]: Hero image generated
+[Pipeline 649bbdacaad4] lead[48]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] lead[49]: Processing: Head over Heels
+[Pipeline 649bbdacaad4] lead[49]: Created client record: EA-2026-000076
+[Pipeline 649bbdacaad4] lead[49]: Hero image generated
+[Pipeline 649bbdacaad4] lead[49]: Email draft logged; No recipient email was found, so nothing was sent.
+[Pipeline 649bbdacaad4] done: Pipeline complete. Processed 50/50 leads. 0 emails. 50 images.

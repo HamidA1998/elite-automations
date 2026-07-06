@@ -1,0 +1,61 @@
+---
+description: Rules for implementing Elite Ops Figma designs in Cursor with consistent enterprise-grade UX and API-first behavior.
+globs: "src/**/*.ts"
+alwaysApply: false
+---
+
+# Elite Ops Figma-to-Code Rules
+
+## Core Principles
+
+- Implement Figma intent, not literal layer translation.
+- Reuse existing app primitives before creating new patterns.
+- Preserve mode identity across `EA`, `CRM`, `AI`, `Ops`, `Vid`, `Mail`, and `Pay`.
+- Keep interaction quality high: stable layout, deterministic behavior, and minimal visual noise.
+
+## UI Composition Rules
+
+- Use the existing shell structure in `src/dashboard.ts` (rail, sidebar, workspace, inspector).
+- Keep inspector collapsed by default and reopenable via explicit control.
+- Maintain visual hierarchy:
+  - One dominant headline region per mode.
+  - A focused KPI band.
+  - A main operating surface tied to the mode objective.
+
+## Data and Mutation Rules
+
+- Every mutation flows through `src/dashboard-server.ts` APIs.
+- Persist every change to SQLite via `src/database.ts`; do not rely on transient client-only state for business records.
+- After mutation, update local state surgically; avoid full-list refetch where unnecessary.
+
+## Score and Status Rules
+
+- Respect health thresholds:
+  - `critical`: 0-30
+  - `weak`: 31-50
+  - `workable`: 51-70
+  - `stable`: 71-100
+- Stage and priority badges must stay consistent across sidebar, ledger, ops, and inspector.
+
+## Interaction Rules
+
+- Inline fields save on blur and provide subtle save feedback.
+- All modals and drawers must close with Escape and explicit close controls.
+- Command palette (`Cmd/Ctrl+K`) remains globally reachable and actionable.
+- Never leave non-functional placeholder controls in production surfaces.
+
+## Empty-State Rules
+
+- Every empty state must include:
+  - clear reason
+  - next step
+  - primary action
+
+## Integration Readiness Rules
+
+- Mail, call, and payments surfaces must present explicit connector states:
+  - connected
+  - not configured
+  - error (with recovery action)
+- Do not hide failures. Show actionable status and retry path in context.
+

@@ -1,0 +1,1840 @@
+{
+  "runId": "3f1565f6c929",
+  "status": "completed",
+  "startedAt": "2026-05-13T08:23:18.438Z",
+  "finishedAt": "2026-05-13T08:25:37.358Z",
+  "totalLeads": 50,
+  "processed": 50,
+  "emailsSent": 0,
+  "emailsDrafted": 50,
+  "imagesGenerated": 50,
+  "errors": 0,
+  "steps": [
+    {
+      "step": "search",
+      "status": "ok",
+      "message": "Searching: \"local businesses Greater Manchester with outdated websites weak online booking or missed enquiry automation\" in Greater Manchester",
+      "timestamp": "2026-05-13T08:23:18.440Z"
+    },
+    {
+      "step": "search",
+      "status": "ok",
+      "message": "Found 50 direct business website candidates",
+      "timestamp": "2026-05-13T08:23:42.869Z"
+    },
+    {
+      "step": "lead[0]",
+      "status": "ok",
+      "message": "Processing: Simister Interchange",
+      "timestamp": "2026-05-13T08:23:42.869Z"
+    },
+    {
+      "step": "lead[0]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000027",
+      "timestamp": "2026-05-13T08:23:42.874Z"
+    },
+    {
+      "step": "lead[0]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:23:43.372Z"
+    },
+    {
+      "step": "lead[0]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:23:43.374Z"
+    },
+    {
+      "step": "lead[1]",
+      "status": "ok",
+      "message": "Processing: Whitefield Interchange",
+      "timestamp": "2026-05-13T08:23:45.377Z"
+    },
+    {
+      "step": "lead[1]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000028",
+      "timestamp": "2026-05-13T08:23:45.389Z"
+    },
+    {
+      "step": "lead[1]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:23:45.545Z"
+    },
+    {
+      "step": "lead[1]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:23:45.548Z"
+    },
+    {
+      "step": "lead[2]",
+      "status": "ok",
+      "message": "Processing: Clifton Junction",
+      "timestamp": "2026-05-13T08:23:47.550Z"
+    },
+    {
+      "step": "lead[2]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000029",
+      "timestamp": "2026-05-13T08:23:47.566Z"
+    },
+    {
+      "step": "lead[2]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:23:47.731Z"
+    },
+    {
+      "step": "lead[2]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:23:47.733Z"
+    },
+    {
+      "step": "lead[3]",
+      "status": "ok",
+      "message": "Processing: Worsley Interchange",
+      "timestamp": "2026-05-13T08:23:49.736Z"
+    },
+    {
+      "step": "lead[3]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000030",
+      "timestamp": "2026-05-13T08:23:49.748Z"
+    },
+    {
+      "step": "lead[3]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:23:49.903Z"
+    },
+    {
+      "step": "lead[3]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:23:49.905Z"
+    },
+    {
+      "step": "lead[4]",
+      "status": "ok",
+      "message": "Processing: Eccles Interchange",
+      "timestamp": "2026-05-13T08:23:51.907Z"
+    },
+    {
+      "step": "lead[4]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000031",
+      "timestamp": "2026-05-13T08:23:51.915Z"
+    },
+    {
+      "step": "lead[4]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:23:52.072Z"
+    },
+    {
+      "step": "lead[4]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:23:52.074Z"
+    },
+    {
+      "step": "lead[5]",
+      "status": "ok",
+      "message": "Processing: Rhodes Interchange",
+      "timestamp": "2026-05-13T08:23:54.075Z"
+    },
+    {
+      "step": "lead[5]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000032",
+      "timestamp": "2026-05-13T08:23:54.092Z"
+    },
+    {
+      "step": "lead[5]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:23:54.254Z"
+    },
+    {
+      "step": "lead[5]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:23:54.255Z"
+    },
+    {
+      "step": "lead[6]",
+      "status": "ok",
+      "message": "Processing: Carrington Interchange",
+      "timestamp": "2026-05-13T08:23:56.258Z"
+    },
+    {
+      "step": "lead[6]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000033",
+      "timestamp": "2026-05-13T08:23:56.267Z"
+    },
+    {
+      "step": "lead[6]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:23:56.425Z"
+    },
+    {
+      "step": "lead[6]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:23:56.428Z"
+    },
+    {
+      "step": "lead[7]",
+      "status": "ok",
+      "message": "Processing: Lostock",
+      "timestamp": "2026-05-13T08:23:58.429Z"
+    },
+    {
+      "step": "lead[7]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000034",
+      "timestamp": "2026-05-13T08:23:58.441Z"
+    },
+    {
+      "step": "lead[7]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:23:58.603Z"
+    },
+    {
+      "step": "lead[7]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:23:58.607Z"
+    },
+    {
+      "step": "lead[8]",
+      "status": "ok",
+      "message": "Processing: Redclyffe",
+      "timestamp": "2026-05-13T08:24:00.609Z"
+    },
+    {
+      "step": "lead[8]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000035",
+      "timestamp": "2026-05-13T08:24:00.621Z"
+    },
+    {
+      "step": "lead[8]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:00.781Z"
+    },
+    {
+      "step": "lead[8]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:00.784Z"
+    },
+    {
+      "step": "lead[9]",
+      "status": "ok",
+      "message": "Processing: Gilda Brook Roundabout",
+      "timestamp": "2026-05-13T08:24:02.786Z"
+    },
+    {
+      "step": "lead[9]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000036",
+      "timestamp": "2026-05-13T08:24:02.795Z"
+    },
+    {
+      "step": "lead[9]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:02.954Z"
+    },
+    {
+      "step": "lead[9]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:02.956Z"
+    },
+    {
+      "step": "lead[10]",
+      "status": "ok",
+      "message": "Processing: Regent Road Roundabout",
+      "timestamp": "2026-05-13T08:24:04.959Z"
+    },
+    {
+      "step": "lead[10]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000037",
+      "timestamp": "2026-05-13T08:24:04.970Z"
+    },
+    {
+      "step": "lead[10]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:05.130Z"
+    },
+    {
+      "step": "lead[10]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:05.131Z"
+    },
+    {
+      "step": "lead[11]",
+      "status": "ok",
+      "message": "Processing: Worsley Braided Interchange",
+      "timestamp": "2026-05-13T08:24:07.134Z"
+    },
+    {
+      "step": "lead[11]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000038",
+      "timestamp": "2026-05-13T08:24:07.146Z"
+    },
+    {
+      "step": "lead[11]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:07.309Z"
+    },
+    {
+      "step": "lead[11]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:07.311Z"
+    },
+    {
+      "step": "lead[12]",
+      "status": "ok",
+      "message": "Processing: Pilsworth Interchange",
+      "timestamp": "2026-05-13T08:24:09.314Z"
+    },
+    {
+      "step": "lead[12]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000039",
+      "timestamp": "2026-05-13T08:24:09.320Z"
+    },
+    {
+      "step": "lead[12]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:09.478Z"
+    },
+    {
+      "step": "lead[12]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:09.480Z"
+    },
+    {
+      "step": "lead[13]",
+      "status": "ok",
+      "message": "Processing: Deansgate Interchange",
+      "timestamp": "2026-05-13T08:24:11.483Z"
+    },
+    {
+      "step": "lead[13]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000040",
+      "timestamp": "2026-05-13T08:24:11.497Z"
+    },
+    {
+      "step": "lead[13]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:11.659Z"
+    },
+    {
+      "step": "lead[13]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:11.661Z"
+    },
+    {
+      "step": "lead[14]",
+      "status": "ok",
+      "message": "Processing: Cambridge Street Junction",
+      "timestamp": "2026-05-13T08:24:13.661Z"
+    },
+    {
+      "step": "lead[14]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000041",
+      "timestamp": "2026-05-13T08:24:13.672Z"
+    },
+    {
+      "step": "lead[14]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:13.826Z"
+    },
+    {
+      "step": "lead[14]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:13.827Z"
+    },
+    {
+      "step": "lead[15]",
+      "status": "ok",
+      "message": "Processing: Downing Street Junction",
+      "timestamp": "2026-05-13T08:24:15.830Z"
+    },
+    {
+      "step": "lead[15]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000042",
+      "timestamp": "2026-05-13T08:24:15.834Z"
+    },
+    {
+      "step": "lead[15]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:15.994Z"
+    },
+    {
+      "step": "lead[15]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:15.995Z"
+    },
+    {
+      "step": "lead[16]",
+      "status": "ok",
+      "message": "Processing: Brooks Bar",
+      "timestamp": "2026-05-13T08:24:17.996Z"
+    },
+    {
+      "step": "lead[16]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000043",
+      "timestamp": "2026-05-13T08:24:18.013Z"
+    },
+    {
+      "step": "lead[16]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:18.171Z"
+    },
+    {
+      "step": "lead[16]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:18.173Z"
+    },
+    {
+      "step": "lead[17]",
+      "status": "ok",
+      "message": "Processing: Old Trafford",
+      "timestamp": "2026-05-13T08:24:20.176Z"
+    },
+    {
+      "step": "lead[17]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000044",
+      "timestamp": "2026-05-13T08:24:20.186Z"
+    },
+    {
+      "step": "lead[17]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:20.348Z"
+    },
+    {
+      "step": "lead[17]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:20.350Z"
+    },
+    {
+      "step": "lead[18]",
+      "status": "ok",
+      "message": "Processing: Throstle Nest Junction",
+      "timestamp": "2026-05-13T08:24:22.352Z"
+    },
+    {
+      "step": "lead[18]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000045",
+      "timestamp": "2026-05-13T08:24:22.364Z"
+    },
+    {
+      "step": "lead[18]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:22.528Z"
+    },
+    {
+      "step": "lead[18]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:22.530Z"
+    },
+    {
+      "step": "lead[19]",
+      "status": "ok",
+      "message": "Processing: Salford Central",
+      "timestamp": "2026-05-13T08:24:24.532Z"
+    },
+    {
+      "step": "lead[19]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000046",
+      "timestamp": "2026-05-13T08:24:24.544Z"
+    },
+    {
+      "step": "lead[19]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:24.706Z"
+    },
+    {
+      "step": "lead[19]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:24.708Z"
+    },
+    {
+      "step": "lead[20]",
+      "status": "ok",
+      "message": "Processing: Roundabout",
+      "timestamp": "2026-05-13T08:24:26.710Z"
+    },
+    {
+      "step": "lead[20]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000047",
+      "timestamp": "2026-05-13T08:24:26.721Z"
+    },
+    {
+      "step": "lead[20]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:26.877Z"
+    },
+    {
+      "step": "lead[20]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:26.878Z"
+    },
+    {
+      "step": "lead[21]",
+      "status": "ok",
+      "message": "Processing: Peel Green Interchange",
+      "timestamp": "2026-05-13T08:24:28.879Z"
+    },
+    {
+      "step": "lead[21]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000048",
+      "timestamp": "2026-05-13T08:24:28.884Z"
+    },
+    {
+      "step": "lead[21]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:29.047Z"
+    },
+    {
+      "step": "lead[21]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:29.049Z"
+    },
+    {
+      "step": "lead[22]",
+      "status": "ok",
+      "message": "Processing: Chester Road Interchange",
+      "timestamp": "2026-05-13T08:24:31.051Z"
+    },
+    {
+      "step": "lead[22]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000049",
+      "timestamp": "2026-05-13T08:24:31.062Z"
+    },
+    {
+      "step": "lead[22]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:31.219Z"
+    },
+    {
+      "step": "lead[22]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:31.220Z"
+    },
+    {
+      "step": "lead[23]",
+      "status": "ok",
+      "message": "Processing: Dane Road",
+      "timestamp": "2026-05-13T08:24:33.223Z"
+    },
+    {
+      "step": "lead[23]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000050",
+      "timestamp": "2026-05-13T08:24:33.235Z"
+    },
+    {
+      "step": "lead[23]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:33.391Z"
+    },
+    {
+      "step": "lead[23]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:33.393Z"
+    },
+    {
+      "step": "lead[24]",
+      "status": "ok",
+      "message": "Processing: Kearsley",
+      "timestamp": "2026-05-13T08:24:35.395Z"
+    },
+    {
+      "step": "lead[24]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000051",
+      "timestamp": "2026-05-13T08:24:35.410Z"
+    },
+    {
+      "step": "lead[24]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:35.573Z"
+    },
+    {
+      "step": "lead[24]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:35.574Z"
+    },
+    {
+      "step": "lead[25]",
+      "status": "ok",
+      "message": "Processing: Kearsley Junction",
+      "timestamp": "2026-05-13T08:24:37.576Z"
+    },
+    {
+      "step": "lead[25]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000052",
+      "timestamp": "2026-05-13T08:24:37.587Z"
+    },
+    {
+      "step": "lead[25]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:37.746Z"
+    },
+    {
+      "step": "lead[25]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:37.748Z"
+    },
+    {
+      "step": "lead[26]",
+      "status": "ok",
+      "message": "Processing: Clifton",
+      "timestamp": "2026-05-13T08:24:39.751Z"
+    },
+    {
+      "step": "lead[26]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000053",
+      "timestamp": "2026-05-13T08:24:39.763Z"
+    },
+    {
+      "step": "lead[26]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:39.919Z"
+    },
+    {
+      "step": "lead[26]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:39.920Z"
+    },
+    {
+      "step": "lead[27]",
+      "status": "ok",
+      "message": "Processing: Agecroft Bridge",
+      "timestamp": "2026-05-13T08:24:41.922Z"
+    },
+    {
+      "step": "lead[27]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000054",
+      "timestamp": "2026-05-13T08:24:41.929Z"
+    },
+    {
+      "step": "lead[27]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:42.089Z"
+    },
+    {
+      "step": "lead[27]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:42.091Z"
+    },
+    {
+      "step": "lead[28]",
+      "status": "ok",
+      "message": "Processing: Water's Meet",
+      "timestamp": "2026-05-13T08:24:44.091Z"
+    },
+    {
+      "step": "lead[28]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000055",
+      "timestamp": "2026-05-13T08:24:44.103Z"
+    },
+    {
+      "step": "lead[28]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:44.262Z"
+    },
+    {
+      "step": "lead[28]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:44.264Z"
+    },
+    {
+      "step": "lead[29]",
+      "status": "ok",
+      "message": "Processing: Salford Crescent",
+      "timestamp": "2026-05-13T08:24:46.266Z"
+    },
+    {
+      "step": "lead[29]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000056",
+      "timestamp": "2026-05-13T08:24:46.278Z"
+    },
+    {
+      "step": "lead[29]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:46.442Z"
+    },
+    {
+      "step": "lead[29]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:46.444Z"
+    },
+    {
+      "step": "lead[30]",
+      "status": "ok",
+      "message": "Processing: Lamb's Cottage",
+      "timestamp": "2026-05-13T08:24:48.446Z"
+    },
+    {
+      "step": "lead[30]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000057",
+      "timestamp": "2026-05-13T08:24:48.450Z"
+    },
+    {
+      "step": "lead[30]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:48.607Z"
+    },
+    {
+      "step": "lead[30]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:48.609Z"
+    },
+    {
+      "step": "lead[31]",
+      "status": "ok",
+      "message": "Processing: Stretford",
+      "timestamp": "2026-05-13T08:24:50.611Z"
+    },
+    {
+      "step": "lead[31]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000058",
+      "timestamp": "2026-05-13T08:24:50.623Z"
+    },
+    {
+      "step": "lead[31]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:50.782Z"
+    },
+    {
+      "step": "lead[31]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:50.784Z"
+    },
+    {
+      "step": "lead[32]",
+      "status": "ok",
+      "message": "Processing: Eccles",
+      "timestamp": "2026-05-13T08:24:52.785Z"
+    },
+    {
+      "step": "lead[32]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000059",
+      "timestamp": "2026-05-13T08:24:52.793Z"
+    },
+    {
+      "step": "lead[32]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:52.956Z"
+    },
+    {
+      "step": "lead[32]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:52.958Z"
+    },
+    {
+      "step": "lead[33]",
+      "status": "ok",
+      "message": "Processing: Wardley Interchange",
+      "timestamp": "2026-05-13T08:24:54.960Z"
+    },
+    {
+      "step": "lead[33]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000060",
+      "timestamp": "2026-05-13T08:24:54.968Z"
+    },
+    {
+      "step": "lead[33]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:55.131Z"
+    },
+    {
+      "step": "lead[33]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:55.133Z"
+    },
+    {
+      "step": "lead[34]",
+      "status": "ok",
+      "message": "Processing: Pendleton Roundabout",
+      "timestamp": "2026-05-13T08:24:57.135Z"
+    },
+    {
+      "step": "lead[34]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000061",
+      "timestamp": "2026-05-13T08:24:57.147Z"
+    },
+    {
+      "step": "lead[34]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:57.305Z"
+    },
+    {
+      "step": "lead[34]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:57.308Z"
+    },
+    {
+      "step": "lead[35]",
+      "status": "ok",
+      "message": "Processing: Chorlton Cross",
+      "timestamp": "2026-05-13T08:24:59.310Z"
+    },
+    {
+      "step": "lead[35]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000062",
+      "timestamp": "2026-05-13T08:24:59.321Z"
+    },
+    {
+      "step": "lead[35]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:24:59.481Z"
+    },
+    {
+      "step": "lead[35]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:24:59.484Z"
+    },
+    {
+      "step": "lead[36]",
+      "status": "ok",
+      "message": "Processing: Salford",
+      "timestamp": "2026-05-13T08:25:01.486Z"
+    },
+    {
+      "step": "lead[36]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000063",
+      "timestamp": "2026-05-13T08:25:01.498Z"
+    },
+    {
+      "step": "lead[36]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:01.662Z"
+    },
+    {
+      "step": "lead[36]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:01.664Z"
+    },
+    {
+      "step": "lead[37]",
+      "status": "ok",
+      "message": "Processing: Chorlton",
+      "timestamp": "2026-05-13T08:25:03.666Z"
+    },
+    {
+      "step": "lead[37]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000064",
+      "timestamp": "2026-05-13T08:25:03.678Z"
+    },
+    {
+      "step": "lead[37]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:03.834Z"
+    },
+    {
+      "step": "lead[37]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:03.835Z"
+    },
+    {
+      "step": "lead[38]",
+      "status": "ok",
+      "message": "Processing: Trafford Bar",
+      "timestamp": "2026-05-13T08:25:05.837Z"
+    },
+    {
+      "step": "lead[38]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000065",
+      "timestamp": "2026-05-13T08:25:05.841Z"
+    },
+    {
+      "step": "lead[38]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:05.995Z"
+    },
+    {
+      "step": "lead[38]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:05.996Z"
+    },
+    {
+      "step": "lead[39]",
+      "status": "ok",
+      "message": "Processing: Shell",
+      "timestamp": "2026-05-13T08:25:07.998Z"
+    },
+    {
+      "step": "lead[39]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000066",
+      "timestamp": "2026-05-13T08:25:08.811Z"
+    },
+    {
+      "step": "lead[39]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:08.973Z"
+    },
+    {
+      "step": "lead[39]",
+      "status": "ok",
+      "message": "Browser audit saved: 4 pages inspected",
+      "timestamp": "2026-05-13T08:25:15.265Z"
+    },
+    {
+      "step": "lead[39]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:15.266Z"
+    },
+    {
+      "step": "lead[40]",
+      "status": "ok",
+      "message": "Processing: Radcliffe",
+      "timestamp": "2026-05-13T08:25:17.268Z"
+    },
+    {
+      "step": "lead[40]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000067",
+      "timestamp": "2026-05-13T08:25:17.280Z"
+    },
+    {
+      "step": "lead[40]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:17.760Z"
+    },
+    {
+      "step": "lead[40]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:17.762Z"
+    },
+    {
+      "step": "lead[41]",
+      "status": "ok",
+      "message": "Processing: Prestwich",
+      "timestamp": "2026-05-13T08:25:19.765Z"
+    },
+    {
+      "step": "lead[41]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000068",
+      "timestamp": "2026-05-13T08:25:19.777Z"
+    },
+    {
+      "step": "lead[41]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:19.938Z"
+    },
+    {
+      "step": "lead[41]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:19.939Z"
+    },
+    {
+      "step": "lead[42]",
+      "status": "ok",
+      "message": "Processing: Tyldesley",
+      "timestamp": "2026-05-13T08:25:21.939Z"
+    },
+    {
+      "step": "lead[42]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000069",
+      "timestamp": "2026-05-13T08:25:21.948Z"
+    },
+    {
+      "step": "lead[42]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:22.109Z"
+    },
+    {
+      "step": "lead[42]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:22.112Z"
+    },
+    {
+      "step": "lead[43]",
+      "status": "ok",
+      "message": "Processing: Winton",
+      "timestamp": "2026-05-13T08:25:24.114Z"
+    },
+    {
+      "step": "lead[43]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000070",
+      "timestamp": "2026-05-13T08:25:24.130Z"
+    },
+    {
+      "step": "lead[43]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:24.297Z"
+    },
+    {
+      "step": "lead[43]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:24.299Z"
+    },
+    {
+      "step": "lead[44]",
+      "status": "ok",
+      "message": "Processing: Swinton",
+      "timestamp": "2026-05-13T08:25:26.301Z"
+    },
+    {
+      "step": "lead[44]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000071",
+      "timestamp": "2026-05-13T08:25:26.311Z"
+    },
+    {
+      "step": "lead[44]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:26.474Z"
+    },
+    {
+      "step": "lead[44]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:26.476Z"
+    },
+    {
+      "step": "lead[45]",
+      "status": "ok",
+      "message": "Processing: Davyhulme",
+      "timestamp": "2026-05-13T08:25:28.478Z"
+    },
+    {
+      "step": "lead[45]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000072",
+      "timestamp": "2026-05-13T08:25:28.492Z"
+    },
+    {
+      "step": "lead[45]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:28.655Z"
+    },
+    {
+      "step": "lead[45]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:28.657Z"
+    },
+    {
+      "step": "lead[46]",
+      "status": "ok",
+      "message": "Processing: Urmston",
+      "timestamp": "2026-05-13T08:25:30.659Z"
+    },
+    {
+      "step": "lead[46]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000073",
+      "timestamp": "2026-05-13T08:25:30.668Z"
+    },
+    {
+      "step": "lead[46]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:30.827Z"
+    },
+    {
+      "step": "lead[46]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:30.828Z"
+    },
+    {
+      "step": "lead[47]",
+      "status": "ok",
+      "message": "Processing: Irlam",
+      "timestamp": "2026-05-13T08:25:32.830Z"
+    },
+    {
+      "step": "lead[47]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000074",
+      "timestamp": "2026-05-13T08:25:32.834Z"
+    },
+    {
+      "step": "lead[47]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:32.998Z"
+    },
+    {
+      "step": "lead[47]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:33.000Z"
+    },
+    {
+      "step": "lead[48]",
+      "status": "ok",
+      "message": "Processing: Ashton upon Mersey",
+      "timestamp": "2026-05-13T08:25:35.002Z"
+    },
+    {
+      "step": "lead[48]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000075",
+      "timestamp": "2026-05-13T08:25:35.013Z"
+    },
+    {
+      "step": "lead[48]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:35.176Z"
+    },
+    {
+      "step": "lead[48]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:35.179Z"
+    },
+    {
+      "step": "lead[49]",
+      "status": "ok",
+      "message": "Processing: Head over Heels",
+      "timestamp": "2026-05-13T08:25:37.179Z"
+    },
+    {
+      "step": "lead[49]",
+      "status": "ok",
+      "message": "Found existing client: EA-2026-000076",
+      "timestamp": "2026-05-13T08:25:37.190Z"
+    },
+    {
+      "step": "lead[49]",
+      "status": "ok",
+      "message": "Hero image generated",
+      "timestamp": "2026-05-13T08:25:37.355Z"
+    },
+    {
+      "step": "lead[49]",
+      "status": "skip",
+      "message": "Email draft logged; No recipient email was found, so nothing was sent.",
+      "timestamp": "2026-05-13T08:25:37.358Z"
+    },
+    {
+      "step": "done",
+      "status": "ok",
+      "message": "Pipeline complete. Processed 50/50 leads. 0 emails. 50 images.",
+      "timestamp": "2026-05-13T08:25:37.358Z"
+    }
+  ],
+  "leadResults": [
+    {
+      "businessName": "Simister Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000027",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Whitefield Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000028",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Clifton Junction",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000029",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Worsley Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000030",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Eccles Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000031",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Rhodes Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000032",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Carrington Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000033",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Lostock",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000034",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Redclyffe",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000035",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Gilda Brook Roundabout",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000036",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Regent Road Roundabout",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000037",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Worsley Braided Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000038",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Pilsworth Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000039",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Deansgate Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000040",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Cambridge Street Junction",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000041",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Downing Street Junction",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000042",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Brooks Bar",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000043",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Old Trafford",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000044",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Throstle Nest Junction",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000045",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Salford Central",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000046",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Roundabout",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000047",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Peel Green Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000048",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Chester Road Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000049",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Dane Road",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000050",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Kearsley",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000051",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Kearsley Junction",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000052",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Clifton",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000053",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Agecroft Bridge",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000054",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Water's Meet",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000055",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Salford Crescent",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000056",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Lamb's Cottage",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000057",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Stretford",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000058",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Eccles",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000059",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Wardley Interchange",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000060",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Pendleton Roundabout",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000061",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Chorlton Cross",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000062",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Salford",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000063",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Chorlton",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000064",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Trafford Bar",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000065",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Shell",
+      "url": "https://find.shell.com/gb/fuel/10348194-mfg-chorlton-motoring-centre",
+      "score": 70,
+      "clientId": "EA-2026-000066",
+      "imageGenerated": true,
+      "browserAudited": true,
+      "browserAuditScreenshot": "/Users/hamidamjad/Documents/Playground/elite-automations/output/browser-audits/EA-2026-000066/find-shell-com-1778660713914.png",
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Radcliffe",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000067",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Prestwich",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000068",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Tyldesley",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000069",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Winton",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000070",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Swinton",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000071",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Davyhulme",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000072",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Urmston",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000073",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Irlam",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000074",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Ashton upon Mersey",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000075",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    },
+    {
+      "businessName": "Head over Heels",
+      "url": "",
+      "score": 40,
+      "clientId": "EA-2026-000076",
+      "imageGenerated": true,
+      "browserAudited": false,
+      "browserAuditScreenshot": null,
+      "emailSent": false,
+      "emailDrafted": true,
+      "error": null
+    }
+  ]
+}

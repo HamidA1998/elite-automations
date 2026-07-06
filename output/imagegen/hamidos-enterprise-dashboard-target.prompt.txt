@@ -1,0 +1,9 @@
+Use case: ui-mockup
+Asset type: enterprise dashboard redesign reference for HAMID.OS / Elite Automations
+Primary request: a shippable dark premium founder operating system dashboard, expensive enterprise control room for CRM, lead pipeline, AI agents, calls, payments, and automations
+Style/medium: high-end SaaS product UI mockup, restrained, dense, operational, polished, not a landing page
+Composition/framing: desktop 16:10 dashboard screenshot; slim left icon rail, structured module sidebar, compact top command bar, KPI strip, central sales pipeline board, AI agents control room, revenue/calls/mail panels, right context dossier
+Color palette: obsidian near-black, warm bronze/gold accents, cyan live-system accents, sparse green amber red status colors
+Typography: clean modern UI type, compact data labels, mono-style numbers
+Constraints: no fake marketing hero, no oversized empty cards, no cartoon illustration, no gradient buttons, no purple-dominated SaaS look, no text overlap, no brand names other than Elite Automations or HAMID.OS
+Avoid: AI slop, cheap template dashboard, neon overload, bokeh/orbs, decorative dead panels, excessive rounded blobs

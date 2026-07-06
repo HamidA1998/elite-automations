@@ -1,0 +1,51 @@
+{
+  "name": "hamid-enterprise",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "tsc --noEmit && vite build",
+    "frontend:dev": "vite --host 127.0.0.1",
+    "frontend:build": "vite build",
+    "dev": "concurrently -n FRONTEND,CRM -c magenta,cyan \"npm:frontend:dev\" \"npm:dashboard:dev\"",
+    "pipeline": "node --env-file=.env.local --import tsx src/index.ts",
+    "videos:render": "node --env-file=.env.local --import tsx src/render-videos.ts",
+    "dashboard:dev": "node --env-file=.env.local --import tsx src/dashboard-server.ts",
+    "playwright:mcp": "playwright-mcp --headless --browser chrome --output-dir output/playwright-mcp"
+  },
+  "dependencies": {
+    "@mendable/firecrawl-js": "^4.18.2",
+    "@remotion/cli": "^4.0.448",
+    "@tailwindcss/vite": "^4.2.2",
+    "@tanstack/react-query": "^5.99.0",
+    "@types/nodemailer": "^8.0.0",
+    "cheerio": "^1.1.2",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.38.0",
+    "lucide-react": "^1.8.0",
+    "nodemailer": "^8.0.5",
+    "openai": "^6.34.0",
+    "picomatch": "^4.0.4",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.14.0",
+    "recharts": "^3.8.1",
+    "remotion": "^4.0.448",
+    "stripe": "^22.0.1",
+    "tailwindcss": "^4.2.2",
+    "tsx": "^4.20.6",
+    "zod": "^4.3.6",
+    "zustand": "^5.0.12"
+  },
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.70",
+    "@types/node": "^24.6.0",
+    "@types/react": "^19.2.2",
+    "@types/react-dom": "^19.2.2",
+    "@vitejs/plugin-react": "^4.7.0",
+    "concurrently": "^9.2.1",
+    "playwright": "^1.59.1",
+    "typescript": "^5.9.3",
+    "vite": "^6.3.7"
+  }
+}

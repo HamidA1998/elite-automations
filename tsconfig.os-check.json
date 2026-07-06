@@ -1,0 +1,23 @@
+{
+  "extends": "./tsconfig.json",
+  "include": [
+    "src/os/os-spine.ts",
+    "src/os/os-spine.test.ts",
+    "src/components/os/GlobalCommandPalette.tsx",
+    "src/components/os/ObjectDossierPanel.tsx",
+    "src/components/layout/AppShell.tsx",
+    "src/pages/ops/OpsCommandPage.tsx",
+    "src/pages/ops/SystemHealthPage.tsx",
+    "src/pages/ops/AutomationPage.tsx",
+    "src/services/api.ts",
+    "src/types/frontend.ts",
+    "src/database.ts",
+    "src/dashboard-server.ts",
+    "src/integrations.ts",
+    "src/browser-audit.ts",
+    "src/automation/overnight-pipeline.ts",
+    "src/firecrawl.ts",
+    "src/kie.ts",
+    "src/vite-env.d.ts"
+  ]
+}

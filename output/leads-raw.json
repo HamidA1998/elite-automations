@@ -1,0 +1,47 @@
+[
+  {
+    "id": "207618d87f9d",
+    "businessName": "Pearl Smile",
+    "businessType": "Dental practices and dentists",
+    "area": "Oldham, Greater Manchester",
+    "websiteUrl": "https://pearlsmiledentist.co.uk/locations/oldham/",
+    "phoneNumber": null,
+    "emailAddress": null,
+    "googleRating": null,
+    "reviewCount": null,
+    "address": null,
+    "sourceUrl": "https://pearlsmiledentist.co.uk/locations/oldham/",
+    "sourceTitle": "Pearl Smile",
+    "sourceDescription": "293, Oldham Road, Failsworth, Manchester, M35 0AS Website: https://pearlsmiledentist.co.uk/locations/oldham/"
+  },
+  {
+    "id": "6dd3101ec695",
+    "businessName": "Middleton Bank Dental",
+    "businessType": "Dental practices and dentists",
+    "area": "Oldham, Greater Manchester",
+    "websiteUrl": "https://middletonbankdental.co.uk",
+    "phoneNumber": "+44 161 653 0930",
+    "emailAddress": null,
+    "googleRating": null,
+    "reviewCount": null,
+    "address": null,
+    "sourceUrl": "https://middletonbankdental.co.uk",
+    "sourceTitle": "Middleton Bank Dental",
+    "sourceDescription": "1a, Long Street, Middleton, M24 6TE Phone: +44 161 653 0930 Website: https://middletonbankdental.co.uk"
+  },
+  {
+    "id": "e147d6b0416f",
+    "businessName": "Bupa Dental Care",
+    "businessType": "Dental practices and dentists",
+    "area": "Oldham, Greater Manchester",
+    "websiteUrl": "https://www.bupa.co.uk/dental/dental-care/practices/royton",
+    "phoneNumber": null,
+    "emailAddress": null,
+    "googleRating": null,
+    "reviewCount": null,
+    "address": null,
+    "sourceUrl": "https://www.bupa.co.uk/dental/dental-care/practices/royton",
+    "sourceTitle": "Bupa Dental Care",
+    "sourceDescription": "118, Rochdale Road, Royton, Oldham, OL2 6QF Website: https://www.bupa.co.uk/dental/dental-care/practices/royton"
+  }
+]

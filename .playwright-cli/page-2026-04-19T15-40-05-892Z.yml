@@ -1,0 +1,245 @@
+- generic [ref=e3]:
+  - generic [ref=e4]:
+    - generic [ref=e5]: EA
+    - link "EA" [ref=e6] [cursor=pointer]:
+      - /url: "#/"
+      - img [ref=e7]
+      - generic [ref=e9]: EA
+    - link "CRM" [ref=e10] [cursor=pointer]:
+      - /url: "#/crm"
+      - img [ref=e11]
+      - generic [ref=e16]: CRM
+    - link "AI" [ref=e17] [cursor=pointer]:
+      - /url: "#/ai"
+      - img [ref=e18]
+      - generic [ref=e21]: AI
+    - link "OPS" [ref=e22] [cursor=pointer]:
+      - /url: "#/ops"
+      - img [ref=e23]
+      - generic [ref=e25]: OPS
+    - link "VID" [ref=e26] [cursor=pointer]:
+      - /url: "#/vid"
+      - img [ref=e27]
+      - generic [ref=e29]: VID
+    - link "MAIL" [ref=e30] [cursor=pointer]:
+      - /url: "#/mail"
+      - img [ref=e31]
+      - generic [ref=e34]: MAIL
+    - link "PAY" [ref=e35] [cursor=pointer]:
+      - /url: "#/pay"
+      - img [ref=e36]
+      - generic [ref=e38]: PAY
+    - link "CALLS" [ref=e39] [cursor=pointer]:
+      - /url: "#/calls"
+      - img [ref=e40]
+      - generic [ref=e42]: CALLS
+    - link "ME" [ref=e43] [cursor=pointer]:
+      - /url: "#/personal"
+      - img [ref=e44]
+      - generic [ref=e46]: ME
+    - link "CFG" [ref=e47] [cursor=pointer]:
+      - /url: "#/settings"
+      - img [ref=e48]
+      - generic [ref=e51]: CFG
+  - complementary [ref=e52]:
+    - generic [ref=e53]:
+      - paragraph [ref=e54]: Elite Automations
+      - heading "OPS" [level=2] [ref=e55]
+      - paragraph [ref=e56]: Founder control plane for acquisition, delivery, revenue, calls, and agents.
+    - generic [ref=e59]:
+      - paragraph [ref=e60]: System status
+      - paragraph [ref=e61]: Nominal
+    - navigation [ref=e63]:
+      - link "OPS Operations" [ref=e64] [cursor=pointer]:
+        - /url: "#/ops"
+        - img [ref=e66]
+        - generic [ref=e71]:
+          - paragraph [ref=e72]: OPS
+          - paragraph [ref=e73]: Operations
+      - link "Stats Metrics" [ref=e74] [cursor=pointer]:
+        - /url: "#/ops/metrics"
+        - img [ref=e76]
+        - generic [ref=e79]:
+          - paragraph [ref=e80]: Stats
+          - paragraph [ref=e81]: Metrics
+      - link "Auto Automation" [ref=e82] [cursor=pointer]:
+        - /url: "#/ops/automation"
+        - img [ref=e84]
+        - generic [ref=e86]:
+          - paragraph [ref=e87]: Auto
+          - paragraph [ref=e88]: Automation
+      - link "Flows Workflows" [ref=e89] [cursor=pointer]:
+        - /url: "#/ops/workflows"
+        - img [ref=e91]
+        - generic [ref=e95]:
+          - paragraph [ref=e96]: Flows
+          - paragraph [ref=e97]: Workflows
+      - link "Approve Approvals" [ref=e98] [cursor=pointer]:
+        - /url: "#/ops/approvals"
+        - img [ref=e100]
+        - generic [ref=e103]:
+          - paragraph [ref=e104]: Approve
+          - paragraph [ref=e105]: Approvals
+      - link "Tunnel Tunnel" [ref=e106] [cursor=pointer]:
+        - /url: "#/ops/tunnel"
+        - img [ref=e108]
+        - generic [ref=e111]:
+          - paragraph [ref=e112]: Tunnel
+          - paragraph [ref=e113]: Tunnel
+      - link "Health System health" [ref=e114] [cursor=pointer]:
+        - /url: "#/ops/health"
+        - img [ref=e116]
+        - generic [ref=e119]:
+          - paragraph [ref=e120]: Health
+          - paragraph [ref=e121]: System health
+    - generic [ref=e122]:
+      - paragraph [ref=e123]: Workspace
+      - paragraph [ref=e124]: Built to stay calm when the business is busy.
+  - generic [ref=e125]:
+    - banner [ref=e126]:
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - paragraph [ref=e129]: Afternoon, Hamid. Still time to make moves today.
+          - paragraph [ref=e130]: Sunday, 19 April 2026
+        - generic [ref=e131]:
+          - button "New account" [ref=e132] [cursor=pointer]
+          - generic [ref=e133]:
+            - img [ref=e134]
+            - text: day mode
+          - generic [ref=e140]: 16:40:05
+          - button [ref=e141] [cursor=pointer]:
+            - img [ref=e142]
+          - button "Enable alerts" [ref=e144] [cursor=pointer]:
+            - img [ref=e145]
+            - generic [ref=e148]: Enable alerts
+    - main [ref=e149]:
+      - generic [ref=e150]:
+        - generic [ref=e151]:
+          - generic [ref=e152]:
+            - paragraph [ref=e153]: HAMID.OS · MISSION CONTROL
+            - heading "One board for every moving part." [level=1] [ref=e154]
+            - paragraph [ref=e155]: Live work, stuck sessions, approvals, agent ownership, pipeline pressure, and system health in one operating surface.
+          - generic [ref=e156]:
+            - link "0 approvals" [ref=e157] [cursor=pointer]:
+              - /url: "#/ops/approvals"
+              - button "0 approvals" [ref=e158]:
+                - img [ref=e159]
+                - text: 0 approvals
+            - link "Agent fleet" [ref=e161] [cursor=pointer]:
+              - /url: "#/agents"
+              - button "Agent fleet" [ref=e162]:
+                - img [ref=e163]
+                - text: Agent fleet
+        - generic [ref=e166]:
+          - generic [ref=e168]:
+            - generic [ref=e169]:
+              - generic [ref=e170]:
+                - paragraph [ref=e171]: Active work
+                - paragraph [ref=e172]: "0"
+                - paragraph [ref=e173]: Objects in the OS board
+              - generic [ref=e174]:
+                - paragraph [ref=e175]: Stuck
+                - paragraph [ref=e176]: "0"
+                - paragraph [ref=e177]: No activity or overdue
+              - generic [ref=e178]:
+                - paragraph [ref=e179]: Agent load
+                - paragraph [ref=e180]: "0"
+                - paragraph [ref=e181]: Agents thinking or running
+              - generic [ref=e182]:
+                - paragraph [ref=e183]: Weighted pipeline
+                - paragraph [ref=e184]: £0
+                - paragraph [ref=e185]: Money closest to close
+            - generic [ref=e186]:
+              - generic [ref=e187]:
+                - generic [ref=e188]:
+                  - generic [ref=e189]:
+                    - paragraph [ref=e190]: Inbox
+                    - paragraph [ref=e191]: New work and raw signals
+                  - generic [ref=e192]: "0"
+                - generic [ref=e194]:
+                  - img [ref=e195]
+                  - paragraph [ref=e198]: Clear
+                  - paragraph [ref=e199]: No work in this lane.
+              - generic [ref=e200]:
+                - generic [ref=e201]:
+                  - generic [ref=e202]:
+                    - paragraph [ref=e203]: Planning
+                    - paragraph [ref=e204]: Needs sequencing or owner
+                  - generic [ref=e205]: "0"
+                - generic [ref=e207]:
+                  - img [ref=e208]
+                  - paragraph [ref=e211]: Clear
+                  - paragraph [ref=e212]: No work in this lane.
+              - generic [ref=e213]:
+                - generic [ref=e214]:
+                  - generic [ref=e215]:
+                    - paragraph [ref=e216]: Executing
+                    - paragraph [ref=e217]: Agent or workflow active
+                  - generic [ref=e218]: "0"
+                - generic [ref=e220]:
+                  - img [ref=e221]
+                  - paragraph [ref=e224]: Clear
+                  - paragraph [ref=e225]: No work in this lane.
+              - generic [ref=e226]:
+                - generic [ref=e227]:
+                  - generic [ref=e228]:
+                    - paragraph [ref=e229]: Reviewing
+                    - paragraph [ref=e230]: Needs Hamid or QA
+                  - generic [ref=e231]: "0"
+                - generic [ref=e233]:
+                  - img [ref=e234]
+                  - paragraph [ref=e237]: Clear
+                  - paragraph [ref=e238]: No work in this lane.
+              - generic [ref=e239]:
+                - generic [ref=e240]:
+                  - generic [ref=e241]:
+                    - paragraph [ref=e242]: Done
+                    - paragraph [ref=e243]: Completed or closed
+                  - generic [ref=e244]: "0"
+                - generic [ref=e246]:
+                  - img [ref=e247]
+                  - paragraph [ref=e250]: Clear
+                  - paragraph [ref=e251]: No work in this lane.
+          - generic [ref=e252]:
+            - generic [ref=e254]:
+              - generic [ref=e255]:
+                - paragraph [ref=e256]: Activity timeline
+                - heading "Latest operational signals" [level=2] [ref=e257]
+              - img [ref=e258]
+            - generic [ref=e261]:
+              - generic [ref=e262]:
+                - generic [ref=e263]:
+                  - paragraph [ref=e264]: System health
+                  - heading "Connectors and automation" [level=2] [ref=e265]
+                - img [ref=e266]
+              - generic [ref=e269]:
+                - generic [ref=e270]:
+                  - paragraph [ref=e273]: Email connector
+                  - generic [ref=e274]: configure
+                - generic [ref=e275]:
+                  - paragraph [ref=e278]: Call connector
+                  - generic [ref=e279]: configure
+                - generic [ref=e280]:
+                  - paragraph [ref=e283]: Stripe connector
+                  - generic [ref=e284]: configure
+              - generic [ref=e285]:
+                - generic [ref=e286]:
+                  - paragraph [ref=e287]: Readiness
+                  - generic [ref=e288]: 0/3
+                - paragraph [ref=e289]: Mission Control is strongest when Gmail, Twilio/ElevenLabs, Stripe, Firecrawl, Apify, and OpenClaw all write events into one timeline.
+              - generic [ref=e290]:
+                - link "Health" [ref=e291] [cursor=pointer]:
+                  - /url: "#/ops/health"
+                  - button "Health" [ref=e292]:
+                    - img [ref=e293]
+                    - text: Health
+                - link "Workflows" [ref=e296] [cursor=pointer]:
+                  - /url: "#/ops/workflows"
+                  - button "Workflows" [ref=e297]:
+                    - img [ref=e298]
+                    - text: Workflows
+                - link "Research tools" [ref=e302] [cursor=pointer]:
+                  - /url: "#/ai/scraper"
+                  - button "Research tools" [ref=e303]:
+                    - img [ref=e304]
+                    - text: Research tools

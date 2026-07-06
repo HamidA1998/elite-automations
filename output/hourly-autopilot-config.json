@@ -1,0 +1,10 @@
+{
+  "enabled": true,
+  "intervalMinutes": 60,
+  "searchQuery": "local businesses Greater Manchester with outdated websites weak online booking or missed enquiry automation",
+  "location": "Greater Manchester",
+  "maxLeads": 50,
+  "minScore": 40,
+  "generateImages": true,
+  "sendEmails": true
+}
