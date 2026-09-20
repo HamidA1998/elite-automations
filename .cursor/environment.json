@@ -1,0 +1,17 @@
+{
+  "name": "Elite Automations Marketing Site",
+  "install": "npm ci",
+  "terminals": [
+    {
+      "name": "vite-dev",
+      "command": "npm run dev",
+      "description": "Vite dev server for the marketing site on http://localhost:5173 (React 19 + Tailwind 4 + Remotion)."
+    }
+  ],
+  "ports": [
+    {
+      "name": "Vite dev server",
+      "port": 5173
+    }
+  ]
+}
